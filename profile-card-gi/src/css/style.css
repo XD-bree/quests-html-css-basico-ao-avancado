@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Lato&family=Outfit:wght@300;400;600&family=Poppins:wght@100;400;700&family=Roboto+Slab&display=swap');
+
+body {
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #000;
+}
+
+hr {
+    color: #ccc;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background: rgb(255,52,41);
+    background: radial-gradient(circle, rgba(255,52,41,1) 0%, rgba(99,18,2,1) 100%);
+    gap: 25px;
+    margin: 20px;
+    width: 340px;
+    height: 360px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card .profile-informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.card .profile-informations img {
+    margin-top: 20px;
+    width: 90px;
+    height: 159px;
+    border-radius: 75%;
+}
+
+
+.profile-numbers {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+ 
+.profile-numbers .info .counter,
+.card .profile-informations p {
+    font-weight: 700;
+}
+
+.card .profile-informations .age,
+.card .profile-informations .city,
+.card .profile-numbers .counter-type {
+    color: var(--text-color);
+}
+
+
+
+
+
