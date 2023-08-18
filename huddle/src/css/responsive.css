@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+    body {
+        max-width: 400px;
+        margin: 30px auto;
+        background-image: none;
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 10px;
+
+        
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .register {
+        flex-direction: column;
+    }
+
+    .register-field {
+        font-size: .2rem;
+        text-align: center;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 50%;
+    }
+
+    .social-midias {
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .social-midias a {
+       margin: 5px;
+    }
+
+}
